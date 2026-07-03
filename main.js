@@ -1,4 +1,3 @@
-import './style.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. HEADER SCROLL EFFECT
