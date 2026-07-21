@@ -2051,7 +2051,7 @@ img {
   margin-right: 4px;
 }
 
-a.justdial-badge:hover {
+a.justdial-badge:hover, a.google-badge:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-color: var(--accent);
   transform: translateY(-1px);
