@@ -2023,3 +2023,70 @@ img {
     display: none;
   }
 }
+
+/* Trust Badges and Gallery CTA Styles */
+.hero-ratings-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.rating-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--text-light);
+  backdrop-filter: blur(8px);
+  transition: var(--transition-fast);
+}
+
+.rating-badge strong {
+  color: var(--accent);
+  margin-right: 4px;
+}
+
+a.justdial-badge:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.gallery-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--text-light);
+  padding: 30px 40px;
+  border-radius: 12px;
+  margin-top: 40px;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  box-shadow: 0 15px 35px rgba(11, 44, 86, 0.15);
+}
+
+.gallery-cta h3 {
+  color: var(--text-light);
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.gallery-cta p {
+  color: var(--text-light-muted);
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .gallery-cta {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+}
+
